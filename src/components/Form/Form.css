@@ -1,0 +1,40 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 85px;
+    padding:40px;
+    border-radius: 10px;
+    overflow: hidden;
+   margin-left: 50px;
+   
+}
+
+.form > input {
+    border-radius: 5px !important;
+   
+}
+
+.form > textarea {
+    border-radius: 5px !important;
+    height: 120px;
+}
+
+span {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.button {
+    background-color: violet;
+    border-color:violet;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.button:hover
+{
+    background-color: #f7dc90;
+    border-color: #f7dc90;
+}
+
