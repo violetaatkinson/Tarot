@@ -1,0 +1,35 @@
+.title {
+    margin-top: -240px;
+    font-weight: 900;
+    color: #c97b61ba;
+    letter-spacing: 1.5px;
+    font-size: 35px;
+}
+
+.tirada {
+    margin-top: 25px;
+    padding: 10px 35px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: #c17860;
+    border-color: #c17860;
+    color: white;
+}
+
+.tirada:hover {
+    background-color: #cb7f66;
+    border-color: #cb7f66;
+}
+
+.fullmoon {
+    margin-top: 100px;
+    opacity: 0.5;
+}
+
+.content{ 
+  position: absolute;
+  color: #f1f1f1;
+  width: 100%;
+  
+}

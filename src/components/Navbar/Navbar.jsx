@@ -10,7 +10,7 @@ const Navbar = () => {
             <nav className="fixed-top navbar-tertiary bg-tertiary">
                 <div className="direc">
                     <img className='rotate p-4' src={moon} alt='logo' height={105}/>
-                    <h2 className='mt-2 '>Tarot Mistico</h2>
+                    <h2 className='mt-2 mistico'>Tarot Mistico</h2>
                         <div id="menuToggle">
                             <input type="checkbox"/>
                               <span></span>

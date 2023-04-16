@@ -44,7 +44,7 @@ const Form = () => {
            <input type="text" placeholder="Nombre" value={name} onChange={e => setName(e.target.value)} className=' col-md-4 col-form-label mb-2 ' />
            <input type="email" placeholder='Email' value={email} onChange={handleChange} className='col-md-4 col-form-label mb-2 mt-3'/>
            <textarea placeholder='Tu mensaje' value={message} onChange={e => setMessage(e.target.value)} className='col-md-4 col-form-label mb-2 mt-3'>{error && <p style={{color: 'red'}}>{error}</p>}</textarea>
-           <button  onClick={submit} className='mt-2 col-md-4 button'>Enviar Mensaje</button>
+           <button  onClick={submit} className='mt-2 col-md-4 button border-0'>Enviar Mensaje</button>
            <span className="mt-3" >Gracias por tu mensaje, en breve contestare ♡</span> 
         </div>
     );
